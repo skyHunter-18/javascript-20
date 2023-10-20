@@ -11,7 +11,11 @@ async function selectMediaStream() {
         };
     } catch (error) {}
 }
-
+window.onload = () => {
+    alert(
+        "Steps to start stream \n1. Click on SELECT MEDIA. \n2. Select the either the tab, window or the entire screen. \n3. Then click on START \n4. To stop press Stop which is displayed."
+    );
+};
 button.addEventListener("click", async () => {
     // Disable button
     button.disabled = true;

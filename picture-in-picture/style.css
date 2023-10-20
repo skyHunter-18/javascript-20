@@ -7,14 +7,25 @@ body {
     margin: 0;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: rgb(37, 37, 37);
 }
-
+/* .text-body {
+    display: flex;
+    align-items: center;
+    margin: 10% 35% 0% 35%;
+} */
+#button-body {
+    display: flex;
+    align-items: center;
+    margin: 10% 30%;
+}
 .btn-container {
+    /* width: fit-content; */
     border: 2px solid black;
+    justify-content: center;
     padding: 10px;
+    margin: 40px;
     border-radius: 7px;
     box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
     /* here inset means that the shadow will be on the inside on the object */
@@ -44,4 +55,29 @@ button:hover {
 button:active {
     transform: translateY(3px);
     box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
 }
