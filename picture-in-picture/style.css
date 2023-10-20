@@ -10,11 +10,7 @@ body {
     align-items: center;
     background-color: rgb(37, 37, 37);
 }
-/* .text-body {
-    display: flex;
-    align-items: center;
-    margin: 10% 35% 0% 35%;
-} */
+
 #button-body {
     display: flex;
     align-items: center;
@@ -55,29 +51,4 @@ button:hover {
 button:active {
     transform: translateY(3px);
     box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
-}
-
-/* The alert message box */
-.alert {
-    padding: 20px;
-    background-color: #f44336; /* Red */
-    color: white;
-    margin-bottom: 15px;
-}
-
-/* The close button */
-.closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-/* When moving the mouse over the close button */
-.closebtn:hover {
-    color: black;
 }
