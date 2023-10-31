@@ -23,7 +23,8 @@ let speakTheJoke = (joke) => {
 
 // Get Jokes from API
 async function getJokes() {
-    const apiUrl = "https://v2.jokeapi.dev/joke/Dark";
+    const apiUrl =
+        "https://v2.jokeapi.dev/joke/Programming,Dark,Spooky?blacklistFlags=religious,political";
     try {
         const response = await fetch(apiUrl); // we will wait to set the response
         const data = await response.json(); // we will wait to set data
